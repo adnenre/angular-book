@@ -1,0 +1,226 @@
+---
+title: Sommaire
+description: Sommaire, Débuter avec Angular
+template: splash # Remove or comment out this line to display the site sidebar on this page.
+---
+
+import { Card, CardGrid } from "@astrojs/starlight/components";
+import FileTree from "../../../components/FileTree.astro";
+
+<FileTree>
+- Chapitre 1 : Introduction à Angular et à son écosystème
+  - 1.1 Histoire et évolution d’Angular (AngularJS vs Angular 2+, versions majeures)
+  - 1.2 Mise en place de l’environnement de développement (Node.js, npm, Angular CLI)
+  - 1.3 Votre première application Angular
+  - 1.4 Architecture d’une application Angular (Modules, Composants, Templates, Métadonnées)
+  - 1.5 Angular CLI en profondeur
+  - 1.6 Comprendre le fichier angular.json
+  - 1.7 Outils de débogage (Augury, DevTools)
+- Chapitre 2 : Modules Angular (NgModules)
+  - 2.1 Rôle des modules
+  - 2.2 Déclaration d’un module (@NgModule)
+  - 2.3 Imports et exports
+  - 2.4 Providers et services au niveau du module
+  - 2.5 Modules de fonctionnalités et module racine
+  - 2.6 Modules partagés et modules Core
+  - 2.7 Modules chargés paresseusement (Lazy-Loaded Modules)
+  - 2.8 Portée des déclarations
+  - 2.9 Évolution : composants autonomes (Angular 14+) et réduction des modules
+- Chapitre 3 : Composants et templates
+  - 3.1 Création d’un composant (@Component)
+  - 3.2 Cycle de vie des composants (Hooks : ngOnInit, ngOnChanges, etc.)
+  - 3.3 Templates : interpolation et liaisons de propriétés
+  - 3.4 Liaisons d’événements
+  - 3.5 Liaison bidirectionnelle (ngModel)
+  - 3.6 Variables de template (#var)
+  - 3.7 @Input et @Output (communication parent-enfant)
+  - 3.8 Encapsulation de vue (ViewEncapsulation)
+  - 3.9 Styles dans les composants (host, :host, :host-context)
+  - 3.10 Stratégie de détection de changement (ChangeDetectionStrategy)
+  - 3.11 Composants dynamiques (ComponentFactoryResolver, ViewContainerRef)
+- Chapitre 4 : Directives
+  - 4.1 Directives structurelles (*ngIf, *ngFor, \*ngSwitch)
+  - 4.2 Comprendre le sucre syntaxique des directives structurelles
+  - 4.3 Directives d’attribut (ngClass, ngStyle, [attr.], [class.], [style.])
+  - 4.4 Création de directives personnalisées
+  - 4.5 Directive structurelle personnalisée
+  - 4.6 Directive d’attribut avec @HostListener et @HostBinding
+  - 4.7 Directive avec exportAs
+- Chapitre 5 : Pipes
+  - 5.1 Pipes intégrés (date, uppercase, currency, json, etc.)
+  - 5.2 Paramétrage et chaînage des pipes
+  - 5.3 Pipes purs et impurs
+  - 5.4 Création de pipes personnalisés
+  - 5.5 Async Pipe pour Observables et Promises
+  - 5.6 Évolution : pipes autonomes (Standalone Pipes)
+- Chapitre 6 : Injection de dépendances
+  - 6.1 Principes de l’injection de dépendances
+  - 6.2 Providers : useClass, useValue, useFactory, useExisting
+  - 6.3 @Injectable et providedIn (portée du service)
+  - 6.4 Hiérarchie des injecteurs (module, composant)
+  - 6.5 Injection avec @Inject et tokens d’injection
+  - 6.6 Dépendances optionnelles (@Optional)
+  - 6.7 Injection avec @Self, @SkipSelf, @Host
+  - 6.8 Multi-providers (multi: true)
+  - 6.9 Injection de dépendances dans les composants autonomes
+- Chapitre 7 : Services et communication avec le serveur
+  - 7.1 Création d’un service simple
+  - 7.2 Utilisation de HttpClient (module HttpClient)
+  - 7.3 Intercepteurs HTTP (interception des requêtes/réponses)
+  - 7.4 Gestion des erreurs HTTP
+  - 7.5 Utilisation des Observables avec l’async pipe
+  - 7.6 Requêtes parallèles et séquentielles (forkJoin, switchMap, etc.)
+  - 7.7 Mise en cache des données
+  - 7.8 WebSockets avec Angular
+- Chapitre 8 : Programmation réactive avec RxJS
+  - 8.1 Introduction à RxJS (Observable, Observer, Subscription)
+  - 8.2 Création d’Observables (of, from, interval, etc.)
+  - 8.3 Opérateurs courants (map, filter, tap, catchError)
+  - 8.4 Opérateurs de transformation (switchMap, mergeMap, concatMap, exhaustMap)
+  - 8.5 Opérateurs de combinaison (combineLatest, forkJoin, withLatestFrom)
+  - 8.6 Subjects (Subject, BehaviorSubject, ReplaySubject, AsyncSubject)
+  - 8.7 Gestion des abonnements (unsubscribe, async pipe, takeUntil)
+  - 8.8 Opérateurs de filtrage (debounceTime, distinctUntilChanged)
+  - 8.9 Bonnes pratiques RxJS dans Angular
+- Chapitre 9 : Navigation et routage
+  - 9.1 Configuration du routeur (RouterModule, Routes)
+  - 9.2 Liens de navigation (routerLink, routerLinkActive)
+  - 9.3 Paramètres de route (params, queryParams, fragment)
+  - 9.4 Routes enfants et routes nommées (auxiliaires)
+  - 9.5 Guards (CanActivate, CanActivateChild, CanDeactivate, Resolve, CanLoad)
+  - 9.6 Chargement paresseux des modules
+  - 9.7 Stratégies de préchargement (PreloadAllModules, personnalisé)
+  - 9.8 Gestion des erreurs 404 et redirections
+  - 9.9 Événements du routeur
+  - 9.10 Routage avec des composants autonomes
+- Chapitre 10 : Formulaires
+  - 10.1 Formulaires pilotés par le template (FormsModule)
+  - 10.2 Validation dans les formulaires Template-Driven
+  - 10.3 Formulaires réactifs (ReactiveFormsModule)
+  - 10.4 FormControl, FormGroup, FormArray
+  - 10.5 Validateurs intégrés et personnalisés
+  - 10.6 Validateurs asynchrones
+  - 10.7 État des champs (touched, dirty, pristine, valid)
+  - 10.8 Mise à jour des valeurs (setValue, patchValue, reset)
+  - 10.9 Formulaires dynamiques avec FormArray
+  - 10.10 Gestion des erreurs et affichage des messages
+  - 10.11 Formulaires dans les composants autonomes
+- Chapitre 11 : Gestion de l’état et des données
+  - 11.1 Gestion simple de l’état avec Services et BehaviorSubject
+  - 11.2 Introduction à NgRx (Store, Actions, Reducers, Selectors, Effects)
+  - 11.3 Mise en place de NgRx dans une application
+  - 11.4 Autres bibliothèques de gestion d’état (Akita, NGXS)
+  - 11.5 Comparaison des approches
+  - 11.6 Gestion d’état avec composants autonomes et Signals
+- Chapitre 12 : Signals (Angular 16+)
+  - 12.1 Introduction aux Signals (signal, computed, effect)
+  - 12.2 Signals dans les templates (liaison automatique)
+  - 12.3 Signals vs Observables
+  - 12.4 Interopérabilité Signals / RxJS (toObservable, toSignal)
+  - 12.5 Signals dans les composants (input, output, model)
+  - 12.6 Signals pour la gestion d’état
+  - 12.7 Effets et cycle de vie
+  - 12.8 Bonnes pratiques avec Signals
+- Chapitre 13 : Tests unitaires et d’intégration
+  - 13.1 Configuration de Jasmine et Karma / Jest
+  - 13.2 TestBed : configuration et injection
+  - 13.3 Tester un composant (TestBed, ComponentFixture, debugElement)
+  - 13.4 Tester les interactions (Click, Input)
+  - 13.5 Tester les services et HttpClient (HttpClientTestingController)
+  - 13.6 Tester les pipes, directives et guards
+  - 13.7 Tests asynchrones (fakeAsync, tick, async, waitForAsync)
+  - 13.8 Mocks et espions (spyOn)
+  - 13.9 Tests End-to-End avec Cypress / Playwright
+- Chapitre 14 : Internationalisation (i18n)
+  - 14.1 Principes de l’internationalisation dans Angular
+  - 14.2 Marquer le texte avec i18n
+  - 14.3 Traduction avec le compilateur i18n (XIFF, XMB)
+  - 14.4 Gestion des pluriels et des sélections
+  - 14.5 Chargement des traductions (avec ou sans AOT)
+  - 14.6 Internationalisation des dates, nombres et devises (i18n Pipes)
+  - 14.7 Construire une application multilingue
+- Chapitre 15 : Performance et optimisation
+  - 15.1 Stratégie de détection de changement (OnPush)
+  - 15.2 Utilisation des pipes purs
+  - 15.3 Se désabonner des Observables (ngOnDestroy)
+  - 15.4 Lazy Loading des modules et composants
+  - 15.5 Préchargement des modules
+  - 15.6 Optimisation du bundle (Tree-Shaking, compression)
+  - 15.7 Analyse de la taille du bundle (source-map-explorer, webpack-bundle-analyzer)
+  - 15.8 Virtual Scrolling (CDK Scrolling)
+  - 15.9 Amélioration du temps de chargement initial (SSR, pré-rendu)
+  - 15.10 Web Workers dans Angular
+- Chapitre 16 : Angular Universal (Server-Side Rendering)
+  - 16.1 Pourquoi le SSR ?
+  - 16.2 Mise en place d’Angular Universal
+  - 16.3 Comprendre le transfert d’état (TransferState)
+  - 16.4 Gestion des dépendances spécifiques au navigateur
+  - 16.5 Pré-rendu (Static Rendering)
+  - 16.6 Déploiement d’une application Universal
+- Chapitre 17 : Sécurité
+  - 17.1 Protection contre les injections XSS (Sanitization)
+  - 17.2 Trusted Types
+  - 17.3 Gestion des URLs et routage sécurisé
+  - 17.4 Authentification et gestion des tokens (JWT, HttpInterceptor)
+  - 17.5 Protection CSRF avec Angular
+  - 17.6 Sécurisation des formulaires
+  - 17.7 Bonnes pratiques de sécurité
+- Chapitre 18 : Animations
+  - 18.1 Introduction aux animations Angular (BrowserAnimationsModule)
+  - 18.2 États et transitions (state, style, animate, transition)
+  - 18.3 Animations d’entrée/sortie
+  - 18.4 Animations séquentielles et parallèles
+  - 18.5 Animations avec keyframes
+  - 18.6 Callbacks d’animation
+  - 18.7 Intégration avec le routage
+- Chapitre 19 : Accessibilité (a11y)
+  - 19.1 Principes d’accessibilité
+  - 19.2 Rôles et attributs ARIA
+  - 19.3 Navigation au clavier
+  - 19.4 Gestion du focus
+  - 19.5 Composants accessibles avec Angular CDK
+  - 19.6 Tests d’accessibilité
+- Chapitre 20 : Angular CDK (Component Dev Kit)
+  - 20.1 Présentation du CDK
+  - 20.2 A11yModule (gestion du focus, LiveAnnouncer, etc.)
+  - 20.3 Overlay (création de popups, modales, tooltips)
+  - 20.4 Portal (rendu dynamique de contenu)
+  - 20.5 Scrolling (Virtual Scrolling)
+  - 20.6 Drag and Drop
+  - 20.7 Table (gestion des tables de données)
+  - 20.8 Tree (vue arborescente)
+  - 20.9 Clipboard (gestion du presse-papiers)
+  - 20.10 Stepper (guide étape par étape)
+  - 20.11 Autres fonctionnalités
+- Chapitre 21 : Angular Material
+  - 21.1 Installation et configuration
+  - 21.2 Thèmes et typographie
+  - 21.3 Composants Material (Formulaires, Navigation, Layout, Boutons, Modales, Tables)
+  - 21.4 Personnalisation des composants
+  - 21.5 Utilisation du CDK avec Material
+  - 21.6 Icônes Material
+- Chapitre 22 : Migration entre versions
+  - 22.1 Comprendre la gestion des versions Angular (SemVer, mises à jour)
+  - 22.2 Utilisation du Angular Update Guide
+  - 22.3 Migration vers les composants autonomes (Angular 14+)
+  - 22.4 Migration vers les Signals (Angular 16+)
+  - 22.5 Gestion des breaking changes
+  - 22.6 Outils de migration automatisés (ng update)
+- Chapitre 23 : Architecture d’entreprise et bonnes pratiques
+  - 23.1 Structurer un projet Angular (par fonctionnalité, par type)
+  - 23.2 Gestion des environnements (environment.ts)
+  - 23.3 Utilisation de bibliothèques partagées (Workspace, Projects)
+  - 23.4 Gestion des dépendances
+  - 23.5 Documentation du code (Compodoc)
+  - 23.6 CI/CD pour Angular
+  - 23.7 Analyse du code (ESLint, Prettier)
+  - 23.8 Gestion globale de l’état avec Services et NgRx
+  - 23.9 Pattern Container vs Presentational Components
+- Chapitre 24 : Outils avancés et écosystème
+  - 24.1 Angular CLI avancé (Schematics, Builders)
+  - 24.2 Création de Schematics personnalisés
+  - 24.3 Création de bibliothèques Angular (ng generate library)
+  - 24.4 Intégration avec d’autres frameworks (React, Vue) via Micro-Frontends
+  - 24.5 PWA avec Angular (Service Worker, Manifest)
+
+</FileTree>
