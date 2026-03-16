@@ -117,3 +117,19 @@ All notable changes to this Angular book are documented in this file. Each chapt
   - 8.7 Managing Subscriptions (unsubscribe, async pipe, takeUntil)
   - 8.8 Filtering Operators (debounceTime, distinctUntilChanged)
   - 8.9 RxJS Best Practices in Angular
+
+## [Version 1.8.0] - 2026-03-16
+
+### Added
+
+- **Chapter 9: Navigation and Routing**
+- 9.1 Router Configuration (RouterModule, Routes)
+- 9.2 Route Links (routerLink, routerLinkActive)
+- 9.3 Route Parameters (params, queryParams, fragment)
+- 9.4 Child Routes and Named (Auxiliary) Routes
+- 9.5 Guards (CanActivate, CanActivateChild, CanDeactivate, Resolve, CanLoad)
+- 9.6 Lazy Loading Modules
+- 9.7 Preloading Strategies (PreloadAllModules, Custom)
+- 9.8 Handling 404 Errors and Redirects
+- 9.9 Router Events
+- 9.10 Routing with Standalone Components
