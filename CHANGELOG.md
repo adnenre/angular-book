@@ -48,3 +48,16 @@ All notable changes to this Angular book are documented in this file. Each chapt
   - 3.9 Styles in Components (host, :host, :host‑context)
   - 3.10 Change Detection Strategy (ChangeDetectionStrategy)
   - 3.11 Dynamic Components (ComponentFactoryResolver, ViewContainerRef)
+
+## [Version 1.2.0] - 2026-03-16
+
+### Added
+
+- Chapter 4: Directives
+  - 4.1 Structural Directives (*ngIf, *ngFor, \*ngSwitch)
+  - 4.2 Understanding the Syntactic Sugar of Structural Directives
+  - 4.3 Attribute Directives (ngClass, ngStyle, [attr.], [class.], [style.])
+  - 4.4 Creating Custom Directives
+  - 4.5 Custom Structural Directive
+  - 4.6 Attribute Directive with @HostListener and @HostBinding
+  - 4.7 Directive with exportAs
