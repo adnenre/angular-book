@@ -150,3 +150,15 @@ All notable changes to this Angular book are documented in this file. Each chapt
   - 10.9 Dynamic Forms with FormArray
   - 10.10 Error Handling and Displaying Messages
   - 10.11 Forms in Standalone Components
+
+## [Version 1.10.0] - 2026-03-16
+
+### Added
+
+- **Chapter 11: State and Data Management**
+  - 11.1 Simple State Management with Services and BehaviorSubject
+  - 11.2 Introduction to NgRx (Store, Actions, Reducers, Selectors, Effects)
+  - 11.3 Setting Up NgRx in an Application
+  - 11.4 Other State Libraries (Akita, NGXS)
+  - 11.5 Comparison of Approaches
+  - 11.6 State Management with Standalone Components and Signals
