@@ -73,3 +73,18 @@ All notable changes to this Angular book are documented in this file. Each chapt
   - 5.4 Creating Custom Pipes
   - 5.5 Async Pipe for Observables and Promises
   - 5.6 Evolution: Standalone Pipes
+
+## [Version 1.5.0] - 2026-03-16
+
+### Added
+
+- **Chapter 6: Dependency Injection**
+  - 6.1 Principles of Dependency Injection
+  - 6.2 Providers: useClass, useValue, useFactory, useExisting
+  - 6.3 @Injectable and providedIn (Service Scope)
+  - 6.4 Injector Hierarchy (Module, Component)
+  - 6.5 Injection with @Inject and Injection Tokens
+  - 6.6 Optional Dependencies (@Optional)
+  - 6.7 Injection with @Self, @SkipSelf, @Host
+  - 6.8 Multi‑providers (multi: true)
+  - 6.9 Dependency Injection in Standalone Components
