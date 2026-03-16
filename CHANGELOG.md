@@ -49,7 +49,7 @@ All notable changes to this Angular book are documented in this file. Each chapt
   - 3.10 Change Detection Strategy (ChangeDetectionStrategy)
   - 3.11 Dynamic Components (ComponentFactoryResolver, ViewContainerRef)
 
-## [Version 1.2.0] - 2026-03-16
+## [Version 1.3.0] - 2026-03-16
 
 ### Added
 
@@ -61,3 +61,15 @@ All notable changes to this Angular book are documented in this file. Each chapt
   - 4.5 Custom Structural Directive
   - 4.6 Attribute Directive with @HostListener and @HostBinding
   - 4.7 Directive with exportAs
+
+## [Version 1.4.0] - 2026-03-16
+
+### Added
+
+- **Chapter 5: Pipes**
+  - 5.1 Built-in Pipes (date, uppercase, currency, json, etc.)
+  - 5.2 Parameterizing and Chaining Pipes
+  - 5.3 Pure and Impure Pipes
+  - 5.4 Creating Custom Pipes
+  - 5.5 Async Pipe for Observables and Promises
+  - 5.6 Evolution: Standalone Pipes
