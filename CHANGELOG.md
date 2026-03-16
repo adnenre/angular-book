@@ -31,3 +31,20 @@ All notable changes to this Angular book are documented in this file. Each chapt
   - 2.7 Lazy-Loaded Modules
   - 2.8 Scope of Declarations
   - 2.9 Evolution: Standalone Components (Angular 14+) and Module Reduction
+
+## [Version 1.2.0] - 2026-03-16
+
+### Added
+
+- **Chapter 3: Components and Templates**
+  - 3.1 Creating a Component (@Component)
+  - 3.2 Component Lifecycle (Hooks: ngOnInit, ngOnChanges, etc.)
+  - 3.3 Templates: Interpolation and Property Bindings
+  - 3.4 Event Bindings
+  - 3.5 Two-Way Binding (ngModel)
+  - 3.6 Template Variables (#var)
+  - 3.7 @Input and @Output (Parent‑Child Communication)
+  - 3.8 View Encapsulation (ViewEncapsulation)
+  - 3.9 Styles in Components (host, :host, :host‑context)
+  - 3.10 Change Detection Strategy (ChangeDetectionStrategy)
+  - 3.11 Dynamic Components (ComponentFactoryResolver, ViewContainerRef)
