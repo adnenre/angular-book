@@ -133,3 +133,20 @@ All notable changes to this Angular book are documented in this file. Each chapt
 - 9.8 Handling 404 Errors and Redirects
 - 9.9 Router Events
 - 9.10 Routing with Standalone Components
+
+## [Version 1.9.0] - 2026-03-16
+
+### Added
+
+- **Chapter 10: Forms**
+  - 10.1 Template‑Driven Forms (FormsModule)
+  - 10.2 Validation in Template‑Driven Forms
+  - 10.3 Reactive Forms (ReactiveFormsModule)
+  - 10.4 FormControl, FormGroup, FormArray
+  - 10.5 Built-in and Custom Validators
+  - 10.6 Asynchronous Validators
+  - 10.7 Field State (touched, dirty, pristine, valid)
+  - 10.8 Updating Values (setValue, patchValue, reset)
+  - 10.9 Dynamic Forms with FormArray
+  - 10.10 Error Handling and Displaying Messages
+  - 10.11 Forms in Standalone Components
