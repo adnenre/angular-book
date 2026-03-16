@@ -88,3 +88,17 @@ All notable changes to this Angular book are documented in this file. Each chapt
   - 6.7 Injection with @Self, @SkipSelf, @Host
   - 6.8 Multi‑providers (multi: true)
   - 6.9 Dependency Injection in Standalone Components
+
+## [Version 1.6.0] - 2026-03-16
+
+### Added
+
+- **Chapter 7: Services and Server Communication**
+  - 7.1 Creating a Simple Service
+  - 7.2 Using HttpClient (HttpClient Module)
+  - 7.3 HTTP Interceptors (Intercepting Requests/Responses)
+  - 7.4 HTTP Error Handling
+  - 7.5 Using Observables with the async Pipe
+  - 7.6 Parallel and Sequential Requests (forkJoin, switchMap, etc.)
+  - 7.7 Data Caching
+  - 7.8 WebSockets in Angular
