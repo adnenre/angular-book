@@ -102,3 +102,18 @@ All notable changes to this Angular book are documented in this file. Each chapt
   - 7.6 Parallel and Sequential Requests (forkJoin, switchMap, etc.)
   - 7.7 Data Caching
   - 7.8 WebSockets in Angular
+
+## [Version 1.7.0] - 2026-03-16
+
+### Added
+
+- **Chapter 8: Reactive Programming with RxJS**
+  - 8.1 Introduction to RxJS (Observable, Observer, Subscription)
+  - 8.2 Creating Observables (of, from, interval, etc.)
+  - 8.3 Common Operators (map, filter, tap, catchError)
+  - 8.4 Transformation Operators (switchMap, mergeMap, concatMap, exhaustMap)
+  - 8.5 Combination Operators (combineLatest, forkJoin, withLatestFrom)
+  - 8.6 Subjects (Subject, BehaviorSubject, ReplaySubject, AsyncSubject)
+  - 8.7 Managing Subscriptions (unsubscribe, async pipe, takeUntil)
+  - 8.8 Filtering Operators (debounceTime, distinctUntilChanged)
+  - 8.9 RxJS Best Practices in Angular
