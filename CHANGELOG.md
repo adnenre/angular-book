@@ -162,3 +162,75 @@ All notable changes to this Angular book are documented in this file. Each chapt
   - 11.4 Other State Libraries (Akita, NGXS)
   - 11.5 Comparison of Approaches
   - 11.6 State Management with Standalone Components and Signals
+
+## [Version 1.11.0] - 2026-03-16
+
+### Added
+
+- **Chapitre 12 : Signals (Angular 16+)**
+  - 12.1 Introduction aux Signals (signal, computed, effect)
+  - 12.2 Signals dans les templates (liaison automatique)
+  - 12.3 Signals vs Observables
+  - 12.4 Interopérabilité Signals / RxJS (toObservable, toSignal)
+  - 12.5 Signals dans les composants (input, output, model)
+  - 12.6 Signals pour la gestion d’état
+  - 12.7 Effets et cycle de vie
+  - 12.8 Bonnes pratiques avec Signals
+- **Chapitre 13 : Tests unitaires et d’intégration**
+  - 13.1 Configuration de Jasmine et Karma / Jest
+  - 13.2 TestBed : configuration et injection
+  - 13.3 Tester un composant (TestBed, ComponentFixture, debugElement)
+  - 13.4 Tester les interactions (Click, Input)
+  - 13.5 Tester les services et HttpClient (HttpClientTestingController)
+  - 13.6 Tester les pipes, directives et guards
+  - 13.7 Tests asynchrones (fakeAsync, tick, async, waitForAsync)
+  - 13.8 Mocks et espions (spyOn)
+  - 13.9 Tests End-to-End avec Cypress / Playwright
+- **Chapitre 14 : Internationalisation (i18n)**
+  - 14.1 Principes de l’internationalisation dans Angular
+  - 14.2 Marquer le texte avec i18n
+  - 14.3 Traduction avec le compilateur i18n (XIFF, XMB)
+  - 14.4 Gestion des pluriels et des sélections
+  - 14.5 Chargement des traductions (avec ou sans AOT)
+  - 14.6 Internationalisation des dates, nombres et devises (i18n Pipes)
+  - 14.7 Construire une application multilingue
+- **Chapitre 15 : Performance et optimisation**
+  - 15.1 Stratégie de détection de changement (OnPush)
+  - 15.2 Utilisation des pipes purs
+  - 15.3 Se désabonner des Observables (ngOnDestroy)
+  - 15.4 Lazy Loading des modules et composants
+  - 15.5 Préchargement des modules
+  - 15.6 Optimisation du bundle (Tree-Shaking, compression)
+  - 15.7 Analyse de la taille du bundle (source-map-explorer, webpack-bundle-analyzer)
+  - 15.8 Virtual Scrolling (CDK Scrolling)
+  - 15.9 Amélioration du temps de chargement initial (SSR, pré-rendu)
+  - 15.10 Web Workers dans Angular
+- **Chapitre 16 : Angular Universal (Server-Side Rendering)**
+  - 16.1 Pourquoi le SSR ?
+  - 16.2 Mise en place d’Angular Universal
+  - 16.3 Comprendre le transfert d’état (TransferState)
+  - 16.4 Gestion des dépendances spécifiques au navigateur
+  - 16.5 Pré-rendu (Static Rendering)
+  - 16.6 Déploiement d’une application Universal -**Chapitre 17 : Sécurité**
+  - 17.1 Protection contre les injections XSS (Sanitization)
+  - 17.2 Trusted Types
+  - 17.3 Gestion des URLs et routage sécurisé
+  - 17.4 Authentification et gestion des tokens (JWT, HttpInterceptor)
+  - 17.5 Protection CSRF avec Angular
+  - 17.6 Sécurisation des formulaires
+  - 17.7 Bonnes pratiques de sécurité
+- **Chapitre 18 : Animations**
+  - 18.1 Introduction aux animations Angular (BrowserAnimationsModule)
+  - 18.2 États et transitions (state, style, animate, transition)
+  - 18.3 Animations d’entrée/sortie
+  - 18.4 Animations séquentielles et parallèles
+  - 18.5 Animations avec keyframes
+  - 18.6 Callbacks d’animation
+  - 18.7 Intégration avec le routage
+- **Chapitre 19 : Accessibilité (a11y)**
+  - 19.1 Principes d’accessibilité
+  - 19.2 Rôles et attributs ARIA
+  - 19.3 Navigation au clavier
+  - 19.4 Gestion du focus
+  - 19.5 Composants accessibles avec Angular CDK
+  - 19.6 Tests d’accessibilité
