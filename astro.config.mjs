@@ -44,7 +44,7 @@ export default defineConfig({
               translations: {
                 fr: "1.2 Mise en place de l’environnement de développement (Node.js, npm, Angular CLI)",
               },
-              slug: "chapter-1-introduction-to-angular-and-its-ecosystem/1-2-setting-up-the-development-environment-nodejs-npm-angular-cli",
+              slug: "chapter-1-introduction-to-angular-and-its-ecosystem/1-2-setting-up-the-development-environment-node-js-npm-angular-cli",
             },
             {
               label: "1.3 Your First Angular Application",
