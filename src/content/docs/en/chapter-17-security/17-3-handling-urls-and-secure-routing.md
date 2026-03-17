@@ -5,6 +5,21 @@ sidebar:
   label: 17.3 Handling URLs and Secure Routing
 ---
 
-```js
+Routes should be protected from unauthorized access.
 
+Use route guards.
+
+TypeScript Example
+
+```ts
+import { CanActivateFn } from "@angular/router";
+
+export const authGuard: CanActivateFn = () => {
+  const loggedIn = true;
+  return loggedIn;
+};
 ```
+
+**Explanation**
+
+> Route guards prevent access to protected pages.
