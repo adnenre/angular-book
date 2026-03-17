@@ -2,7 +2,7 @@
 
 [![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
 
-Welcome to the **angular: The Complete Guide** repository. This project is a comprehensive, chapter‑by‑chapter book about angular, built as a modern documentation site using [Astro](https://astro.build) and [Starlight](https://starlight.astro.build). Every chapter is treated as a major feature release, and the content is versioned in [`CHANGELOG.md`](./CHANGELOG.md).
+Welcome to the **angular: The Complete Guide** repository. This project is a comprehensive, chapter‑by‑chapter book about angular, built as a modern documentation site using [Astro](https://astro.build) and [Starlight](https://starlight.astro.build). Every chapter is treated as a minor feature release, and the content is versioned in [`CHANGELOG.md`](./CHANGELOG.md).
 
 ## 🌐 Discovering the Book
 
