@@ -1,7 +1,7 @@
 {
   "name": "angular-book",
   "type": "module",
-  "version": "1.11.0",
+  "version": "1.12.0",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",

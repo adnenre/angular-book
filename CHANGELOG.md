@@ -234,3 +234,50 @@ All notable changes to this Angular book are documented in this file. Each chapt
   - 19.4 Gestion du focus
   - 19.5 Composants accessibles avec Angular CDK
   - 19.6 Tests d’accessibilité
+
+## [Version 1.11.0] - 2026-03-16
+
+### Added
+
+- **Chapter 20: Angular CDK (Component Dev Kit)**
+  - 20.1 Overview of the CDK
+  - 20.2 A11yModule (Focus Management, LiveAnnouncer, etc.)
+  - 20.3 Overlay (Creating Popups, Modals, Tooltips)
+  - 20.4 Portal (Dynamic Content Rendering)
+  - 20.5 Scrolling (Virtual Scrolling)
+  - 20.6 Drag and Drop
+  - 20.7 Table (Data Table Management)
+  - 20.8 Tree (Tree View)
+  - 20.9 Clipboard (Clipboard Management)
+  - 20.10 Stepper (Step‑by‑Step Guide)
+  - 20.11 Other Features
+- **Chapter 21: Angular Material**
+  - 21.1 Installation and Configuration
+  - 21.2 Theming and Typography
+  - 21.3 Material Components (Forms, Navigation, Layout, Buttons, Modals, Tables)
+  - 21.4 Customizing Components
+  - 21.5 Using the CDK with Material
+  - 21.6 Material Icons
+- **Chapter 22: Migrating Between Versions**
+  - 22.1 Understanding Angular Versioning (SemVer, Updating)
+  - 22.2 Using the Angular Update Guide
+  - 22.3 Migrating to Standalone Components (Angular 14+)
+  - 22.4 Migrating to Signals (Angular 16+)
+  - 22.5 Handling Breaking Changes
+  - 22.6 Automated Migration Tools (ng update)
+- **Chapter 23: Enterprise Architecture and Best Practices**
+  - 23.1 Structuring an Angular Project (By Feature, By Type)
+  - 23.2 Environment Management (environment.ts)
+  - 23.3 Using Shared Libraries (Workspace, Projects)
+  - 23.4 Dependency Management
+  - 23.5 Code Documentation (Compodoc)
+  - 23.6 CI/CD for Angular
+  - 23.7 Code Analysis (ESLint, Prettier)
+  - 23.8 Global State Management with Services and NgRx
+  - 23.9 Container vs. Presentational Components Pattern
+- **Chapter 24: Advanced Tools and Ecosystem**
+  - 24.1 Advanced Angular CLI (Schematics, Builders)
+  - 24.2 Creating Custom Schematics
+  - 24.3 Creating Angular Libraries (ng generate library)
+  - 24.4 Integration with Other Frameworks (React, Vue) via Micro‑Frontends
+  - 24.5 PWA with Angular (Service Worker, Manifest)
